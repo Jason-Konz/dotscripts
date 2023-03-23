@@ -1,7 +1,7 @@
 link:
 	rm -f ~/bin/makehtml ~/bin/traverse.py
-	ln -s ~/.scripts/makehtml ~/bin/makehtml
-	ln -s ~/.scripts/traverse.py ~/bin/traverse.py
+	ln -sf ~/.scripts/makehtml ~/bin/makehtml
+	ln -sf ~/.scripts/traverse.py ~/bin/traverse.py
 	
 
 unlink:
